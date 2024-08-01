@@ -18,7 +18,7 @@ Browser storage in JavaScript refers to the mechanisms provided by web browsers 
 
 ### Example Usage
 
-\`\`\`javascript
+```javascript
 // Store data
 localStorage.setItem('key', 'value');
 
@@ -31,7 +31,7 @@ localStorage.removeItem('key');
 
 // Clear all data
 localStorage.clear();
-\`\`\`
+```
 
 ## 3. SessionStorage
 
@@ -42,7 +42,7 @@ localStorage.clear();
 
 ### Example Usage
 
-\`\`\`javascript
+```javascript
 // Store data
 sessionStorage.setItem('key', 'value');
 
@@ -55,7 +55,7 @@ sessionStorage.removeItem('key');
 
 // Clear all data
 sessionStorage.clear();
-\`\`\`
+```
 
 ## 4. IndexedDB
 
